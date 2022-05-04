@@ -33,11 +33,11 @@ function calculateAll() {
     totalPrice += updateSubtotal(elem)
   })
 //console.log (totalPrice);
- }
  
   // ITERATION 3
-  let totalValue = product.querySelector('#total-value span');
+  let totalValue = document.querySelector('#total-value span');
   totalValue.innerHTML = `${totalPrice}`;
+}
 
 // ITERATION 4
 
